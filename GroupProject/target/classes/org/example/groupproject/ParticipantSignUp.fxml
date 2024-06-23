@@ -4,14 +4,20 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="404.0" prefWidth="448.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.groupproject.ParticipantSignUpController">
+<AnchorPane prefHeight="750.0" prefWidth="447.0" style="-fx-background-color: #FFDD9A;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.groupproject.ParticipantSignUpController">
     <children>
-        <Label layoutX="114.0" layoutY="10.0" text="EDUCATION FEEDBACK SYSTEM">
+        <Label layoutX="114.0" layoutY="10.0" text="EDUCATION FEEDBACK SYSTEM" textFill="#ff7444">
             <font>
-                <Font name="System Bold" size="12.0" />
+                <Font name="System Bold" size="14.0" />
             </font></Label>
-        <Label layoutX="150.0" layoutY="45.0" text="Welcome :)" />
-        <Label layoutX="114.0" layoutY="75.0" text="Let's make it happen together" />
+        <Label layoutX="150.0" layoutY="45.0" text="Welcome :)">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+        <Label layoutX="114.0" layoutY="75.0" text="Let's make it happen together">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
         <Label layoutX="148.0" layoutY="116.0" text="Full Name" />
         <TextField fx:id="participantSignUpName" layoutX="148.0" layoutY="138.0" />
         <Label layoutX="148.0" layoutY="175.0" text="Email" />
@@ -22,13 +28,13 @@
         <PasswordField fx:id="participantSignUpPassword" layoutX="148.0" layoutY="544.0" />
         <Label layoutX="148.0" layoutY="527.0" text="Confirm Password" />
         <PasswordField fx:id="participantSignUpConfirmPassword" layoutX="148.0" layoutY="484.0" />
-        <Button layoutX="193.0" layoutY="606.0" mnemonicParsing="false" onAction="#buttonForParticipantSignUpRegister" text="Register" />
+        <Button layoutX="193.0" layoutY="606.0" mnemonicParsing="false" onAction="#buttonForParticipantSignUpRegister" style="-fx-background-color: blue;" text="Register" textFill="#f4efef" />
         <Label layoutX="118.0" layoutY="673.0" text="Already have an account?">
             <font>
                 <Font size="10.0" />
             </font>
         </Label>
-        <Button layoutX="272.0" layoutY="668.0" mnemonicParsing="false" onAction="#buttonForParticipantSignUpLogin" text="Login" />
+        <Button layoutX="272.0" layoutY="668.0" mnemonicParsing="false" onAction="#buttonForParticipantSignUpLogin" style="-fx-background-color: blue;" text="Login" textFill="#fbf9f9" />
         <Label fx:id="userINFO" />
         <Label layoutX="148.0" layoutY="291.0" text="Gender" />
         <ChoiceBox fx:id="creatorGender" layoutX="148.0" layoutY="308.0" prefWidth="150.0" />
