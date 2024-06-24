@@ -10,6 +10,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\GroupProject\src\main\resources\org\example\groupproject\Creator.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\GroupProject\src\main\resources\org\example\groupproject\Participant.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
