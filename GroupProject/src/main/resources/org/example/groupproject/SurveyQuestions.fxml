@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 
 <ScrollPane fx:id="scrollPane" prefHeight="414.0" prefWidth="545.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.groupproject.SurveyQuestionsController">
@@ -10,10 +11,15 @@
         <Label layoutX="45.0" layoutY="77.0" text="1" />
         <Label layoutX="63.0" layoutY="77.0" text="Select the type of questions you want to create" />
         <Button layoutX="852.0" layoutY="14.0" mnemonicParsing="false" onAction="#submitquestions" text="Submit" />
-        <Button layoutX="57.0" layoutY="110.0" mnemonicParsing="false" onAction="#buttonForTextQuestions" text="Add Open-Ended Questions" />
-        <Button layoutX="250.0" layoutY="110.0" mnemonicParsing="false" onAction="#addPolarQuestions" text="Add polar questions" />
-        <Button layoutX="404.0" layoutY="110.0" mnemonicParsing="false" onAction="#addMCQ" text="MCQ questions" />
+        <Button layoutX="57.0" layoutY="110.0" mnemonicParsing="false" onAction="#buttonForTextQuestions" style="-fx-background-color: blue;" text="Add Open-Ended Questions" textFill="#fffefe" />
+        <Button layoutX="250.0" layoutY="110.0" mnemonicParsing="false" onAction="#addPolarQuestions" style="-fx-background-color: blue;" text="Add polar questions" textFill="#faf7f7" />
+        <Button layoutX="404.0" layoutY="110.0" mnemonicParsing="false" onAction="#addMCQ" style="-fx-background-color: blue;" text="MCQ questions" textFill="#fff4f4" />
         <Label fx:id="SubmitL" layoutX="453.0" layoutY="53.0" />
+         <ImageView blendMode="MULTIPLY" fitHeight="403.0" fitWidth="529.0" opacity="0.48" pickOnBounds="true">
+            <image>
+               <Image url="@../../../../login.jpg" />
+            </image>
+         </ImageView>
     </children>
 
 </AnchorPane>
